@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { VivahVerseLogo } from '@/components/icons/VivahVerseLogo';
+import { PironaLogo } from '@/components/icons/PironaLogo';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { services } from '@/lib/data';
@@ -12,9 +12,9 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           <div className="lg:col-span-2">
             <Link href="/" className="flex items-center space-x-2 mb-4">
-              <VivahVerseLogo className="h-8 w-8 text-primary" />
+              <PironaLogo className="h-8 w-8 text-primary" />
               <span className="font-bold font-headline text-2xl text-foreground">
-                VivahVerse
+                Pirona
               </span>
             </Link>
             <p className="max-w-sm text-muted-foreground">
@@ -37,7 +37,7 @@ export function Footer() {
               <li><Link href="/services" className="text-muted-foreground hover:text-primary">Services</Link></li>
               <li><Link href="/dowry-free" className="text-muted-foreground hover:text-primary">Dowry-Free Initiative</Link></li>
               <li><Link href="/contact" className="text-muted-foreground hover:text-primary">Contact</Link></li>
-              <li><Link href="/vendor-dashboard" className="text-muted-foreground hover:text-primary">For Vendors</Link></li>
+              <li><Link href="/auth/admin" className="text-muted-foreground hover:text-primary">For Vendors</Link></li>
             </ul>
           </div>
 
@@ -60,7 +60,7 @@ export function Footer() {
               <Link href="#" aria-label="Instagram"><Instagram className="text-muted-foreground hover:text-primary" /></Link>
             </div>
              <div className="mt-4 space-y-1">
-                <p className="text-sm text-muted-foreground">contact@vivahverse.com</p>
+                <p className="text-sm text-muted-foreground">contact@pirona.com</p>
                 <p className="text-sm text-muted-foreground">+91 12345 67890</p>
             </div>
           </div>
@@ -68,7 +68,7 @@ export function Footer() {
       </div>
       <div className="border-t">
         <div className="container mx-auto px-4 py-6 text-center text-sm text-muted-foreground">
-          &copy; {new Date().getFullYear()} VivahVerse. All Rights Reserved.
+          &copy; {new Date().getFullYear()} Pirona. All Rights Reserved.
         </div>
       </div>
     </footer>

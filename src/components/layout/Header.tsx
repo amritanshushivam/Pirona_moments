@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { VivahVerseLogo } from '@/components/icons/VivahVerseLogo';
+import { PironaLogo } from '@/components/icons/PironaLogo';
 import { MobileNav } from './MobileNav';
 
 const navLinks = [
@@ -17,9 +17,9 @@ export function Header() {
       <div className="container flex h-16 items-center">
         <div className="mr-4 hidden md:flex">
           <Link href="/" className="mr-6 flex items-center space-x-2">
-            <VivahVerseLogo className="h-6 w-6" />
+            <PironaLogo className="h-6 w-6" />
             <span className="hidden font-bold sm:inline-block font-headline text-lg">
-              VivahVerse
+              Pirona
             </span>
           </Link>
           <nav className="flex items-center space-x-6 text-sm font-medium">

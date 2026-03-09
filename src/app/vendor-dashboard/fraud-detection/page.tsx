@@ -46,7 +46,7 @@ export default function FraudDetectionPage() {
     <div className="space-y-6">
       <h1 className="text-2xl font-headline">AI Fraud Detection</h1>
       <p className="text-muted-foreground">
-        Our AI analyzes your profile data to identify potential signs of fraudulent activity. This helps you understand how your profile appears to our system and maintain a trustworthy presence on VivahVerse.
+        Our AI analyzes your profile data to identify potential signs of fraudulent activity. This helps you understand how your profile appears to our system and maintain a trustworthy presence on Pirona.
       </p>
 
       <Card>

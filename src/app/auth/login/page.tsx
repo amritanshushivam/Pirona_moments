@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { VivahVerseLogo } from "@/components/icons/VivahVerseLogo";
+import { PironaLogo } from "@/components/icons/PironaLogo";
 
 export default function LoginPage() {
   return (
@@ -11,7 +11,7 @@ export default function LoginPage() {
       <Card className="mx-auto max-w-sm w-full">
         <CardHeader className="text-center">
             <Link href="/" className="inline-block mb-4">
-                <VivahVerseLogo className="h-12 w-12 mx-auto text-primary" />
+                <PironaLogo className="h-12 w-12 mx-auto text-primary" />
             </Link>
           <CardTitle className="text-2xl font-headline">Welcome Back</CardTitle>
           <CardDescription>

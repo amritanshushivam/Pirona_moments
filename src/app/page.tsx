@@ -194,7 +194,7 @@ export default function Home() {
                 Real Weddings, Real Stories
               </h2>
               <p className="mt-2 text-lg text-muted-foreground max-w-2xl mx-auto">
-                Get inspired by couples who planned their dream wedding with VivahVerse.
+                Get inspired by couples who planned their dream wedding with Pirona.
               </p>
             </div>
             <Carousel

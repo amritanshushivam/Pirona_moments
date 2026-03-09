@@ -143,7 +143,7 @@ export const testimonials: Testimonial[] = [
     {
         name: 'Priya & Rohan',
         event: 'Wedding in Delhi',
-        quote: 'VivahVerse made our wedding planning a breeze! The AI planner suggested the best vendors within our budget. Highly recommended!',
+        quote: 'Pirona made our wedding planning a breeze! The AI planner suggested the best vendors within our budget. Highly recommended!',
         imageId: 'testimonial-1',
     },
     {

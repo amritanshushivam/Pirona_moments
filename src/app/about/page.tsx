@@ -8,7 +8,7 @@ export default function AboutPage() {
       <main className="container mx-auto px-4 py-12">
         <h1 className="text-4xl font-headline">About Us</h1>
         <p className="mt-4 text-lg text-muted-foreground">
-          The story of MCA Shaadi Wala (VivahVerse)... coming soon.
+          The story of Pirona... coming soon.
         </p>
       </main>
       <Footer />

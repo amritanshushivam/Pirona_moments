@@ -13,7 +13,7 @@ import {
   SidebarTrigger,
   SidebarFooter,
 } from '@/components/ui/sidebar';
-import { VivahVerseLogo } from '@/components/icons/VivahVerseLogo';
+import { PironaLogo } from '@/components/icons/PironaLogo';
 import { Button } from '@/components/ui/button';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import {
@@ -41,8 +41,8 @@ export default function VendorDashboardLayout({ children }: { children: React.Re
         <Sidebar>
           <SidebarHeader>
             <div className="flex items-center gap-2">
-              <VivahVerseLogo className="w-6 h-6 text-primary" />
-              <span className="text-lg font-headline">VivahVerse</span>
+              <PironaLogo className="w-6 h-6 text-primary" />
+              <span className="text-lg font-headline">Pirona</span>
             </div>
           </SidebarHeader>
           <SidebarContent>
@@ -70,7 +70,7 @@ export default function VendorDashboardLayout({ children }: { children: React.Re
                     </Link>
                 </SidebarMenuItem>
                 <SidebarMenuItem>
-                    <Link href="/auth/login">
+                    <Link href="/auth/admin">
                         <SidebarMenuButton>
                             <LogOut className="w-4 h-4" />
                             <span>Logout</span>

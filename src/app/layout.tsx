@@ -4,7 +4,7 @@ import './globals.css';
 import { cn } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'VivahVerse',
+  title: 'Pirona',
   description: 'Desi Dil, Digital Style!',
 };
 

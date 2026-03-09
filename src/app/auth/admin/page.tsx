@@ -1,11 +1,20 @@
+'use client';
+
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import { PironaLogo } from "@/components/icons/PironaLogo";
 
-export default function SignupPage() {
+export default function AdminLoginPage() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-secondary p-4">
       <Card className="mx-auto max-w-sm w-full">
@@ -13,41 +22,46 @@ export default function SignupPage() {
             <Link href="/" className="inline-block mb-4">
                 <PironaLogo className="h-12 w-12 mx-auto text-primary" />
             </Link>
-          <CardTitle className="text-2xl font-headline">Create an Account</CardTitle>
+          <CardTitle className="text-2xl font-headline">Admin & Vendor Login</CardTitle>
           <CardDescription>
-            Join Pirona to plan your perfect wedding
+            Select your role and enter your credentials.
           </CardDescription>
         </CardHeader>
         <CardContent>
           <div className="grid gap-4">
             <div className="grid gap-2">
-                <Label htmlFor="full-name">Full Name</Label>
-                <Input id="full-name" placeholder="Priya Sharma" required />
+                <Label htmlFor="role">Role</Label>
+                <Select>
+                    <SelectTrigger id="role">
+                        <SelectValue placeholder="Select a role" />
+                    </SelectTrigger>
+                    <SelectContent>
+                        <SelectItem value="admin">Admin</SelectItem>
+                        <SelectItem value="vendor">Vendor</SelectItem>
+                    </SelectContent>
+                </Select>
             </div>
             <div className="grid gap-2">
-              <Label htmlFor="email">Email</Label>
+              <Label htmlFor="id">User ID / Email</Label>
               <Input
-                id="email"
-                type="email"
-                placeholder="priya@example.com"
+                id="id"
+                type="text"
+                placeholder="Enter your ID or email"
                 required
               />
             </div>
             <div className="grid gap-2">
-              <Label htmlFor="password">Password</Label>
-              <Input id="password" type="password" />
+                <Label htmlFor="password">Password</Label>
+              <Input id="password" type="password" required />
             </div>
             <Button type="submit" className="w-full">
-              Create an account
-            </Button>
-             <Button variant="outline" className="w-full">
-              Sign up with Google
+              Login
             </Button>
           </div>
           <div className="mt-4 text-center text-sm">
-            Already have an account?{" "}
+            Are you a customer?{" "}
             <Link href="/auth/login" className="underline">
-              Login
+              Login here
             </Link>
           </div>
         </CardContent>

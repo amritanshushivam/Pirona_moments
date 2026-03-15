@@ -235,27 +235,36 @@ export default function Home() {
                 <div className="text-center mb-12">
                     <h2 className="text-3xl md:text-4xl font-headline text-foreground">What Our Couples Say</h2>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    {testimonials.map((testimonial) => {
-                       const image = PlaceHolderImages.find(p => p.id === testimonial.imageId);
-                      return (
-                        <Card key={testimonial.name} className="flex flex-col justify-between">
-                            <CardContent className="pt-6">
-                                <p className="text-muted-foreground italic">"{testimonial.quote}"</p>
-                            </CardContent>
-                            <CardHeader className="flex flex-row items-center gap-4">
-                                <Avatar>
-                                    {image && <AvatarImage src={image.imageUrl} alt={testimonial.name} data-ai-hint={image.imageHint} />}
-                                    <AvatarFallback>{testimonial.name.charAt(0)}</AvatarFallback>
-                                </Avatar>
-                                <div>
-                                    <p className="font-semibold text-foreground">{testimonial.name}</p>
-                                    <p className="text-sm text-muted-foreground">{testimonial.event}</p>
-                                </div>
-                            </CardHeader>
-                        </Card>
-                    )})}
-                </div>
+                <Carousel
+                    opts={{ align: 'start' }}
+                    className="w-full max-w-6xl mx-auto"
+                >
+                    <CarouselContent>
+                        {testimonials.map((testimonial, index) => {
+                           const image = PlaceHolderImages.find(p => p.id === testimonial.imageId);
+                          return (
+                            <CarouselItem key={index} className="p-2 md:basis-1/2 lg:basis-1/3">
+                                <Card className="h-full flex flex-col justify-between">
+                                    <CardContent className="pt-6 flex-grow">
+                                        <p className="text-muted-foreground italic">"{testimonial.quote}"</p>
+                                    </CardContent>
+                                    <CardHeader className="flex flex-row items-center gap-4">
+                                        <Avatar>
+                                            {image && <AvatarImage src={image.imageUrl} alt={testimonial.name} data-ai-hint={image.imageHint} />}
+                                            <AvatarFallback>{testimonial.name.charAt(0)}</AvatarFallback>
+                                        </Avatar>
+                                        <div>
+                                            <p className="font-semibold text-foreground">{testimonial.name}</p>
+                                            <p className="text-sm text-muted-foreground">{testimonial.event}</p>
+                                        </div>
+                                    </CardHeader>
+                                </Card>
+                            </CarouselItem>
+                        )})}
+                    </CarouselContent>
+                    <CarouselPrevious />
+                    <CarouselNext />
+                </Carousel>
             </div>
         </section>
 

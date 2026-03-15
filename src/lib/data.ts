@@ -158,6 +158,24 @@ export const testimonials: Testimonial[] = [
         quote: 'Found our dream venue and decor team through this platform. The AR preview was a game-changer! It helped us visualize everything perfectly.',
         imageId: 'testimonial-3',
     },
+    {
+        name: 'Riya & Karan',
+        event: 'Wedding in Bangalore',
+        quote: 'The user interface is so intuitive. We planned our entire wedding from our couch. The vendor list is extensive and reliable.',
+        imageId: 'testimonial-4',
+    },
+    {
+        name: 'Aarav Mehta',
+        event: 'Brother\'s Wedding, Kolkata',
+        quote: 'Pirona\'s customer support is top-notch. They helped us with a last-minute change without any hassle. A truly trustworthy platform.',
+        imageId: 'testimonial-5',
+    },
+    {
+        name: 'Neha & Siddharth',
+        event: 'Wedding in Chennai',
+        quote: 'The deals and packages section helped us save a lot! We got a fantastic photographer at a great price. Thank you, Pirona!',
+        imageId: 'testimonial-6',
+    },
 ];
 
 export const realWeddings: RealWedding[] = [

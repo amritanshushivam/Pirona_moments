@@ -1,3 +1,6 @@
+'use client';
+
+import * as React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import {
@@ -8,6 +11,7 @@ import {
   Sparkles,
   Users,
 } from 'lucide-react';
+import Autoplay from 'embla-carousel-autoplay';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
@@ -27,6 +31,9 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 export default function Home() {
   const heroImage = PlaceHolderImages.find(p => p.id === 'hero-banner');
+  const autoplayPlugin = React.useRef(
+    Autoplay({ delay: 5000, stopOnInteraction: true })
+  );
 
   return (
     <div className="flex min-h-screen flex-col">
@@ -236,8 +243,11 @@ export default function Home() {
                     <h2 className="text-3xl md:text-4xl font-headline text-foreground">What Our Couples Say</h2>
                 </div>
                 <Carousel
-                    opts={{ align: 'start' }}
+                    plugins={[autoplayPlugin.current]}
+                    opts={{ align: 'start', loop: true }}
                     className="w-full max-w-6xl mx-auto"
+                    onMouseEnter={autoplayPlugin.current.stop}
+                    onMouseLeave={autoplayPlugin.current.reset}
                 >
                     <CarouselContent>
                         {testimonials.map((testimonial, index) => {

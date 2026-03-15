@@ -113,6 +113,18 @@
       "description": "Profile picture for another vendor.",
       "imageUrl": "https://images.unsplash.com/flagged/photo-1595514191830-3e96a518989b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGVyc29uJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzcwODEwNjg4fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "person portrait"
+    },
+    {
+      "id": "auth-background-customer",
+      "description": "An Indian bride in traditional attire.",
+      "imageUrl": "https://images.unsplash.com/photo-1597157639117-3535f524d7ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxpbmRpYW4lMjBicmlkZXxlbnwwfHx8fDE3NzE0MTc2NTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "indian bride"
+    },
+    {
+      "id": "auth-background-admin",
+      "description": "A team of professionals working together.",
+      "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwbGFubmluZ3xlbnwwfHx8fDE3NzE0MTc3NTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "planning team"
     }
   ]
 }

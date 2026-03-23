@@ -1,0 +1,154 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-banner",
+      "description": "A vibrant Indian wedding ceremony.",
+      "imageUrl": "https://images.unsplash.com/photo-1542042161784-26ab9e041e89?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxpbmRpYW4lMjB3ZWRkaW5nfGVufDB8fHx8MTc3MDgzMjc2MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "indian wedding"
+    },
+    {
+      "id": "vendor-catering-1",
+      "description": "A spread of delicious Indian food.",
+      "imageUrl": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBmb29kfGVufDB8fHx8MTc3MDgwMjUyNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "indian food"
+    },
+    {
+      "id": "vendor-dj-1",
+      "description": "A DJ at a wedding party.",
+      "imageUrl": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxkaiUyMHBhcnR5fGVufDB8fHx8MTc3MDc1NDQ1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dj party"
+    },
+    {
+      "id": "vendor-decor-1",
+      "description": "Elegant wedding decoration with flowers.",
+      "imageUrl": "https://images.unsplash.com/photo-1712068534065-f56c36e21759?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8d2VkZGluZyUyMGRlY29yYXRpb258ZW58MHx8fHwxNzcwNzM3MzMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wedding decoration"
+    },
+    {
+      "id": "vendor-decor-2",
+      "description": "Wedding stage decoration.",
+      "imageUrl": "https://images.unsplash.com/photo-1523438885200-e635ba2c371e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3ZWRkaW5nJTIwc3RhZ2V8ZW58MHx8fHwxNzcwODMyNzYyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wedding stage"
+    },
+    {
+      "id": "vendor-venue-1",
+      "description": "A beautiful wedding venue.",
+      "imageUrl": "https://images.unsplash.com/photo-1670529776180-60e4132ab90c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3ZWRkaW5nJTIwdmVudWV8ZW58MHx8fHwxNzcwNzg5NzI1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wedding venue"
+    },
+    {
+      "id": "vendor-makeup-1",
+      "description": "A bride getting her makeup done.",
+      "imageUrl": "https://images.unsplash.com/photo-1684868265714-fd2300637c23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxicmlkYWwlMjBtYWtldXB8ZW58MHx8fHwxNzcwNzQwMDE3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bridal makeup"
+    },
+    {
+      "id": "vendor-photo-1",
+      "description": "A photographer taking pictures at a wedding.",
+      "imageUrl": "https://images.unsplash.com/photo-1573676048035-9c2a72b6a12a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3ZWRkaW5nJTIwcGhvdG9ncmFwaHl8ZW58MHx8fHwxNzcwODMyNzYyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wedding photography"
+    },
+    {
+      "id": "real-wedding-1",
+      "description": "A happy couple at their wedding.",
+      "imageUrl": "https://images.unsplash.com/photo-1596457221755-b96bc3a6df18?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3ZWRkaW5nJTIwY291cGxlfGVufDB8fHx8MTc3MDc5NzEzMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wedding couple"
+    },
+    {
+      "id": "real-wedding-2",
+      "description": "A couple during their wedding rituals.",
+      "imageUrl": "https://images.unsplash.com/photo-1618566864264-fb013f791da4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx3ZWRkaW5nJTIwY291cGxlfGVufDB8fHx8MTc3MDc5NzEzMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wedding couple"
+    },
+    {
+      "id": "real-wedding-3",
+      "description": "A smiling couple after their wedding.",
+      "imageUrl": "https://images.unsplash.com/photo-1563808599481-34a342e44508?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3ZWRkaW5nJTIwY291cGxlfGVufDB8fHx8MTc3MDc5NzEzMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wedding couple"
+    },
+    {
+      "id": "couple1",
+      "description": "A beautiful bride and groom at their Indian wedding.",
+      "imageUrl": "https://images.unsplash.com/photo-1514307471547-b7d01e543555?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxpbmRpYW4lMjBicmlkZXx8ZW58MHx8fHwxNzcwODMyNzYyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Indian wedding couple bride groom"
+    },
+    {
+      "id": "deal-1",
+      "description": "A decorated wedding hall for a deal package.",
+      "imageUrl": "https://images.unsplash.com/photo-1632316962873-47ee3d309f02?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3ZWRkaW5nJTIwaGFsbHxlbnwwfHx8fDE3NzA4MzI3NjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wedding hall"
+    },
+    {
+      "id": "deal-2",
+      "description": "Catering setup for a wedding.",
+      "imageUrl": "https://images.unsplash.com/photo-1677676700414-ff5d6302a978?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3ZWRkaW5nJTIwY2F0ZXJpbmd8ZW58MHx8fHwxNzcwODMyNzYxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wedding catering"
+    },
+    {
+      "id": "deal-3",
+      "description": "Complete wedding photography package.",
+      "imageUrl": "https://images.unsplash.com/photo-1645497265285-17096c1a429e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx3ZWRkaW5nJTIwYWxidW18ZW58MHx8fHwxNzcwODMyNzYyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wedding album"
+    },
+    {
+      "id": "testimonial-1",
+      "description": "Avatar for Priya & Rohan.",
+      "imageUrl": "https://images.unsplash.com/photo-1540569014015-19a7be504e3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NzA4MTA2ODh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "testimonial-2",
+      "description": "Avatar for Anjali & Vikram.",
+      "imageUrl": "https://images.unsplash.com/photo-1540569014015-19a7be504e3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NzA4MTA2ODh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "testimonial-3",
+      "description": "Avatar for Sameer.",
+      "imageUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NzA4MTA2ODh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "vendor-profile-1",
+      "description": "Profile picture for a vendor.",
+      "imageUrl": "https://images.unsplash.com/photo-1521119989659-a83eee488004?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NzA4MTA2ODh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "vendor-profile-2",
+      "description": "Profile picture for another vendor.",
+      "imageUrl": "https://images.unsplash.com/flagged/photo-1595514191830-3e96a518989b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGVyc29uJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzcwODEwNjg4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "auth-background-customer",
+      "description": "A beautiful Indian wedding celebration with bride and groom.",
+      "imageUrl": "https://images.unsplash.com/photo-1519741497674-611481863552?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3ZWRkaW5nJTIwY2VyZW1vbnl8ZW58MHx8fHwxNzcwODMyNzYyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "indian wedding ceremony bride groom"
+    },
+    {
+      "id": "auth-background-admin",
+      "description": "A team of professionals working together.",
+      "imageUrl": "https://picsum.photos/seed/auth-admin/1920/1080",
+      "imageHint": "planning team"
+    },
+    {
+      "id": "testimonial-4",
+      "description": "Avatar for Riya & Karan.",
+      "imageUrl": "https://images.unsplash.com/photo-1557862921-37829c790f19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxM3x8cGVyc29uJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzcwODEwNjg4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "testimonial-5",
+      "description": "Avatar for Aarav Mehta.",
+      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxNXx8cGVyc29uJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzcwODEwNjg4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "testimonial-6",
+      "description": "Avatar for Neha & Siddharth.",
+      "imageUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NzA4MTA2ODh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
+    }
+  ]
+}

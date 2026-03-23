@@ -66,7 +66,7 @@ export function MobileNav({ navLinks }: MobileNavProps) {
 
             {/* Auth Section - Mobile */}
             <div className="mt-6 pt-6 border-t border-border/50">
-              {user ? (
+              {user && user.userType === 'customer' ? (
                 <div className="space-y-3">
                   <Button 
                     variant="ghost" 

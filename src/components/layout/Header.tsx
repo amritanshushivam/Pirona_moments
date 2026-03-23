@@ -60,7 +60,7 @@ export function Header() {
 
           {/* Auth Buttons - Hidden on mobile */}
           <div className="hidden md:flex items-center gap-2">
-            {user ? (
+            {user && user.userType === 'customer' ? (
               <>
                 <Button 
                   variant="ghost" 

@@ -1,0 +1,17 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="dj-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#a855f7" />
+      <stop offset="100%" stopColor="#7e22ce" />
+    </linearGradient>
+  </defs>
+  <rect width="300" height="300" fill="url(#dj-grad)"/>
+  <circle cx="80" cy="120" r="25" fill="white" opacity="0.2"/>
+  <circle cx="220" cy="120" r="25" fill="white" opacity="0.2"/>
+  <rect x="110" y="160" width="80" height="60" rx="5" fill="white" opacity="0.15"/>
+  <circle cx="120" cy="180" r="6" fill="white" opacity="0.3"/>
+  <circle cx="150" cy="190" r="6" fill="white" opacity="0.3"/>
+  <circle cx="180" cy="180" r="6" fill="white" opacity="0.3"/>
+  <rect x="130" y="230" width="40" height="40" fill="white" opacity="0.2" rx="5"/>
+  <text x="150" y="270" font-size="20" font-weight="bold" text-anchor="middle" fill="white" opacity="0.6">DJ Music</text>
+</svg>

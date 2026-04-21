@@ -52,7 +52,7 @@ export function MobileNav({ navLinks }: MobileNavProps) {
           </Link>
           <div className="my-4 h-[calc(100vh-8rem)] pb-10 pl-6">
             <div className="flex flex-col space-y-3">
-              {navLinks.map((link) => (
+              {!user && navLinks.map((link) => (
                 <Link
                   key={link.href}
                   href={link.href}
@@ -66,12 +66,16 @@ export function MobileNav({ navLinks }: MobileNavProps) {
 
             {/* Auth Section - Mobile */}
             <div className="mt-6 pt-6 border-t border-border/50">
-              {user && user.userType === 'customer' ? (
+              {user && (user.userType === 'customer' || user.userType === 'vendor' || user.userType === 'admin') ? (
                 <div className="space-y-3">
                   <Button 
                     variant="ghost" 
                     className="w-full justify-start font-body cursor-pointer hover:text-primary flex items-center gap-2"
-                    onClick={() => handleNavClick('/dashboard')}
+                    onClick={() => {
+                      if (user.userType === 'vendor') handleNavClick('/vendor-dashboard');
+                      else if (user.userType === 'admin') handleNavClick('/admin');
+                      else handleNavClick('/dashboard');
+                    }}
                   >
                     <User className="w-4 h-4" />
                     {user.name}

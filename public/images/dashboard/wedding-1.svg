@@ -1,0 +1,14 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f77f88;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#fed7aa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fecdd3;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg1)"/>
+  <circle cx="100" cy="80" r="50" fill="#ffffff" opacity="0.3"/>
+  <circle cx="350" cy="200" r="80" fill="#ffffff" opacity="0.2"/>
+  <path d="M200 150 L250 100 L280 160 L240 180 Z" fill="#ffffff" opacity="0.4"/>
+  <text x="200" y="150" font-size="18" font-weight="bold" text-anchor="middle" fill="white" opacity="0.7">Wedding</text>
+</svg>

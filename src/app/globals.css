@@ -157,3 +157,27 @@
     @apply animate-[glow_3s_ease-in-out_infinite];
   }
 }
+
+/* Image performance optimizations */
+@layer utilities {
+  /* Optimize background images for smooth rendering */
+  img,
+  [style*="background-image"] {
+    content-visibility: auto;
+  }
+  
+  /* Smooth animation frames */
+  .animation-frame {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    will-change: contents;
+    image-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  /* Hero and background sections */
+  [class*="hero"],
+  [class*="background"] {
+    contain: layout style paint;
+  }
+}

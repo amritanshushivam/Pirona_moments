@@ -1,0 +1,16 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="decor-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#ec4899" />
+      <stop offset="100%" stopColor="#be185d" />
+    </linearGradient>
+  </defs>
+  <rect width="300" height="300" fill="url(#decor-grad)"/>
+  <polygon points="150,80 180,140 150,160 120,140" fill="white" opacity="0.2"/>
+  <circle cx="100" cy="100" r="15" fill="white" opacity="0.2"/>
+  <circle cx="200" cy="120" r="15" fill="white" opacity="0.2"/>
+  <path d="M80 180 Q100 160 120 180 Q100 200 80 180" fill="white" opacity="0.15"/>
+  <path d="M220 180 Q240 160 260 180 Q240 200 220 180" fill="white" opacity="0.15"/>
+  <circle cx="150" cy="200" r="30" fill="white" opacity="0.1"/>
+  <text x="150" y="270" font-size="20" font-weight="bold" text-anchor="middle" fill="white" opacity="0.6">Decor</text>
+</svg>

@@ -22,14 +22,30 @@ import {
   ShieldAlert,
   Calendar,
   LogOut,
-  LayoutDashboard
+  LayoutDashboard,
+  Package,
+  Camera,
+  DollarSign,
+  Star,
+  CheckCircle,
+  AlertTriangle,
+  HelpCircle,
+  Settings,
 } from 'lucide-react';
 
 const menuItems = [
-  { href: '/vendor-dashboard', label: 'My Profile', icon: User },
-  { href: '/vendor-dashboard/services', label: 'My Services', icon: Briefcase },
+  { href: '/vendor-dashboard', label: 'Dashboard', icon: LayoutDashboard },
+  { href: '/vendor-dashboard/profile', label: 'My Profile', icon: User },
+  { href: '/vendor-dashboard/services', label: 'My Services & Packages', icon: Briefcase },
+  { href: '/vendor-dashboard/portfolio', label: 'Portfolio Uploads', icon: Camera },
   { href: '/vendor-dashboard/bookings', label: 'Bookings', icon: Calendar },
-  { href: '/vendor-dashboard/fraud-detection', label: 'Fraud Detection', icon: ShieldAlert },
+  { href: '/vendor-dashboard/calendar', label: 'Availability Calendar', icon: Calendar },
+  { href: '/vendor-dashboard/earnings', label: 'Earnings & Payments', icon: DollarSign },
+  { href: '/vendor-dashboard/reviews', label: 'Reviews & Ratings', icon: Star },
+  { href: '/vendor-dashboard/verification', label: 'Verification Status', icon: CheckCircle },
+  { href: '/vendor-dashboard/fraud', label: 'Fraud Detection', icon: AlertTriangle },
+  { href: '/vendor-dashboard/support', label: 'Support / Help', icon: HelpCircle },
+  { href: '/vendor-dashboard/settings', label: 'Settings', icon: Settings },
 ];
 
 export default function VendorDashboardLayout({ children }: { children: React.ReactNode }) {
@@ -61,16 +77,8 @@ export default function VendorDashboardLayout({ children }: { children: React.Re
           </SidebarContent>
           <SidebarFooter className="flex flex-col gap-2">
             <SidebarMenu>
-                 <SidebarMenuItem>
-                    <Link href="/">
-                        <SidebarMenuButton>
-                            <LayoutDashboard className="w-4 h-4" />
-                            <span>Back to Site</span>
-                        </SidebarMenuButton>
-                    </Link>
-                </SidebarMenuItem>
                 <SidebarMenuItem>
-                    <Link href="/auth/admin">
+                    <Link href="/auth/logout">
                         <SidebarMenuButton>
                             <LogOut className="w-4 h-4" />
                             <span>Logout</span>

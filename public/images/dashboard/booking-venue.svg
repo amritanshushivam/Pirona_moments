@@ -1,0 +1,15 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="venue-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#3b82f6" />
+      <stop offset="100%" stopColor="#1e40af" />
+    </linearGradient>
+  </defs>
+  <rect width="300" height="300" fill="url(#venue-grad)"/>
+  <polygon points="150,80 220,140 220,220 80,220 80,140" fill="white" opacity="0.2"/>
+  <rect x="110" y="150" width="30" height="40" fill="white" opacity="0.15"/>
+  <rect x="160" y="150" width="30" height="40" fill="white" opacity="0.15"/>
+  <polygon points="150,100 170,120 130,120" fill="white" opacity="0.2"/>
+  <circle cx="150" cy="190" r="20" fill="white" opacity="0.1"/>
+  <text x="150" y="270" font-size="20" font-weight="bold" text-anchor="middle" fill="white" opacity="0.6">Venue</text>
+</svg>
